@@ -1,0 +1,19 @@
+{
+  "name": "lab-node-http",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusnielsen/lab-node-http.git"
+  },
+  "author": "Marcus Nielsen @marcusnielsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcusnielsen/lab-node-http/issues"
+  },
+  "homepage": "https://github.com/marcusnielsen/lab-node-http#readme"
+}
