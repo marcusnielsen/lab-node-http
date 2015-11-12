@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
-let tape = require('tape');
+let tape = require('tape')
 
 tape('App', (test) => {
-  test.plan(1);
+  test.plan(1)
 
-  test.equals(5,5);
-});
+  test.equals(5,5)
+})

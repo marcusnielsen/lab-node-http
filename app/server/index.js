@@ -1,15 +1,15 @@
-'use strict';
+'use strict'
 
-let http = require('http');
+let http = require('http')
 
 let server = http.createServer((req, res) => {
   if(req.url === '/hello') {
-    return res.end('Hello world!');
+    return res.end('Hello world!')
   }
 
-  res.end('Other routes not handled. Please try "/hello".');
-});
+  res.end('Other routes not handled. Please try "/hello".')
+})
 
-let port = process.env.PORT;
+let port = process.env.PORT
 
-server.listen(port, () => console.log('Server started on port: ' + port) );
+server.listen(port, () => console.info('Server started on port: ' + port) )
