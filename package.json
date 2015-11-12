@@ -1,10 +1,13 @@
 {
   "name": "lab-node-http",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Livecoding.tv/marcusnielsen app.",
+  "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint app/*",
+    "test": "tape app/*.test.js | faucet",
+    "start": "node app",
+    "temp": "eslint --init"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/marcusnielsen/lab-node-http/issues"
   },
-  "homepage": "https://github.com/marcusnielsen/lab-node-http#readme"
+  "homepage": "https://github.com/marcusnielsen/lab-node-http#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^1.2.0",
+    "eslint": "^1.9.0",
+    "eslint-plugin-react": "^3.8.0",
+    "tape": "^4.2.2"
+  }
 }
